@@ -1,0 +1,39 @@
+# Android / Gradle
+.gradle/
+**/build/
+local.properties
+*.iml
+.idea/
+.vscode/
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+
+# Keystore files
+*.jks
+*.keystore
+
+# Log files
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Generated files
+/captures/
+.externalNativeBuild/
+.cxx/
+
+# Android Studio / IntelliJ
+*.ipr
+*.iws
+*.swp
+
+# Default recommended Android ignores
+# Keep Gradle wrapper tracked
+!gradlew
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
